@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        include ../../head
+        -   var releaseTitle = data[releaseNumber - 1].title
+        -   var releaseArtist = data[releaseNumber - 1].artist
+        title=releaseTitle + ' by ' + releaseArtist
+    body
+        include ../header/header
+        main.release-page(data-release-number=releaseNumber)
+            .background(style="background-image: url(./releases/" + releaseNumber + "/" + releaseNumber + "_artwork.jpeg)")
+            .container
+                a.back-btn(href="./index.pug")
+                include ../artwork/artwork
+                +artwork-mixin(releaseNumber)
+                .players
+                    include ../player/player
+                    -   var tracks = data[releaseNumber - 1].tracks
+                    +player-mixin(releaseNumber, tracks)
+                    include ../stores/stores
+                    -   var release = data[releaseNumber - 1].stores;
+                +stores-mixin(release)
+        script(src="./index.js")

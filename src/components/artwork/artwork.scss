@@ -1,0 +1,20 @@
+$size: 226px; //main page size
+.artwork {
+  width: $size;
+  height: $size;
+  overflow: hidden;
+  @include mobile {
+    width: 100%;
+    height: 100%;
+  }
+  @include tablet {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+}

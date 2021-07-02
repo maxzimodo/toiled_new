@@ -1,0 +1,34 @@
+.release-link {
+  color: $clr-txt-muted;
+  text-decoration: none;
+}
+.release {
+  position: relative;
+  .artwork {
+    margin-bottom: $spacing / 1.5;
+  }
+  p {
+    margin: $spacing / 5 0;
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+  &-title {
+    font-weight: 700;
+    color: $clr-txt;
+  }
+  &:hover {
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $clr-ui-alt;
+      outline: $spacing / 2 solid $clr-ui-alt;
+      z-index: -1;
+    }
+  }
+}

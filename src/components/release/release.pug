@@ -1,0 +1,12 @@
+mixin release-mixin(title, artist, remixer, date, id)
+    a.release-link(href=id + '.pug')
+        .release
+            include ../artwork/artwork
+            +artwork-mixin(id)
+            .release-info
+                p.release-title=title
+                p.release-artist
+                    span=artist
+                    if(remixer)
+                        span , #{remixer}
+                p.release-date=date

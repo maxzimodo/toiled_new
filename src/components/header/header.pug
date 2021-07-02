@@ -1,0 +1,17 @@
+-
+    var nav = [
+      { href:'index', title:'releases' },
+      { href:'about', title:'about' },
+      { href:'contacts', title:'contacts' }
+    ]
+header.main-header#header
+    .wrapper
+        .logo
+            a(href='index.pug')
+                img.logo(src="./img/logo.svg")
+                img.logo-mob#drawerBtn(src="./img/logo_mob.svg")
+        nav.main-nav
+            ul
+                each item in nav
+                    li
+                        a(href=item.href + '.pug' class=(page === item.href ? "active" : undefined))=item.title

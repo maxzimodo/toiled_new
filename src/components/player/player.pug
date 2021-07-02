@@ -1,0 +1,21 @@
+mixin player-mixin(index, tracks)
+    each track, i in tracks
+        .player
+            p.player-title=track.title
+            p.player-artist
+                span=track.artist
+                if(track.remixer)
+                    span , #{track.remixer}
+            p.player-description
+                span=track.genre
+                |&nbsp;/&nbsp;
+                span=track.bpm
+                | BPM&nbsp;/&nbsp;
+                span=track.key
+            .custom-player
+                audio.system-player
+                    source(src='./releases/' + index + '/' + index + '_' + (i + 1) + '.mp3' type="audio/mpeg")
+                button.play-pause
+                span.current-time 00:00
+                input.range(type="range" max="100" value="0")
+                span.duration 00:00

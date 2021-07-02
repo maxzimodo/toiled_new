@@ -1,0 +1,15 @@
+-   var page="index"
+doctype html
+html(lang="en")
+    head
+        include ./head
+        title Toiled records official site
+    body
+        include ./components/header/header
+        main.main-page
+            .wrapper
+                .releases
+                    include ./components/release/release
+                    each release in data.reverse()
+                        +release-mixin(release.title, release.artist, release.remixer, release.date, release.id)
+        script(src="index.js")

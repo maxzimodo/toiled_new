@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "title": "Dyadya Techno",
+    "artist": "Mazxim",
+    "remixer": "",
+    "date": "2019-04-20",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Sub",
+        "genre": "Techno",
+        "bpm": 120,
+        "key": "A min",
+        "sound": "001/01"
+      },
+      {
+        "id": 2,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Bus",
+        "genre": "Tech House",
+        "bpm": 120,
+        "key": "A ♯maj",
+        "sound": "001/02"
+      },
+      {
+        "id": 3,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Dub",
+        "genre": "Techno",
+        "bpm": 120,
+        "key": "A min",
+        "sound": "001/03"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/dyadya-techno/2547082",
+      "junodownload": "",
+      "spotify": "https://open.spotify.com/album/2BvgqHw3PMcwN9rqUvnvP1?si=i3xHTaU-ReuSP-gTRNHwTQ&dl_branch=1",
+      "applemusic": "https://music.apple.com/ru/album/dyadya-techno-single/1457192775",
+      "traxsource": "",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/dyadya-techno-single/1457192775",
+      "deezer": "https://www.deezer.com/en/album/90974892",
+      "tidal": "https://tidal.com/browse/album/106190753"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Cycle Things",
+    "artist": "Maqar",
+    "remixer": "",
+    "date": "2019-05-03",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Cycle Things",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "C min",
+        "sound": "002/01"
+      },
+      {
+        "id": 2,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Cycle Things (Dub Mix)",
+        "genre": "Deep House",
+        "bpm": 117,
+        "key": "A min",
+        "sound": "002/02"
+      },
+      {
+        "id": 3,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Mathias",
+        "genre": "Tech House",
+        "bpm": 120,
+        "key": "A maj",
+        "sound": "002/03"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/cycle-things/2547084",
+      "junodownload": "",
+      "spotify": "https://open.spotify.com/album/0L5xpjs30F3jtBwiRUlVhw",
+      "applemusic": "https://music.apple.com/fr/album/cycle-things-single/1457221093?l=en",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/fr/album/cycle-things-single/1457221093?l=en",
+      "deezer": "https://www.deezer.com/en/album/90981782",
+      "tidal": "https://tidal.com/browse/album/106190945"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Wanna Stay",
+    "artist": "Harry Perlo",
+    "remixer": "",
+    "date": "2019-05-05",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Harry Perlo",
+        "remixer": "",
+        "title": "Wanna Stay",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "A min"
+      },
+      {
+        "id": 2,
+        "artist": "Harry Perlo",
+        "remixer": "",
+        "title": "Far Hesitate",
+        "genre": "Deep House",
+        "bpm": 115,
+        "key": "B min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/wanna-stay/2564746",
+      "junodownload": "",
+      "spotify": "https://open.spotify.com/album/7dH6t9eOa0lfiQdjQoowbt",
+      "applemusic": "https://music.apple.com/us/album/wanna-stay-single/1459491971",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/us/album/wanna-stay-single/1459491971",
+      "deezer": "https://www.deezer.com/en/album/93424282",
+      "tidal": "https://tidal.com/browse/album/108173668"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Getting Out Tonight",
+    "artist": "Maqar",
+    "remixer": "",
+    "date": "2019-06-25",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Getting Out",
+        "genre": "Indie Dance",
+        "bpm": 109,
+        "key": "A♯ maj"
+      },
+      {
+        "id": 2,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Tonight",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "G min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/getting-out-tonight/2617492",
+      "junodownload": "https://www.junodownload.com/products/maqar-getting-out-tonight/4171844-02/",
+      "spotify": "https://open.spotify.com/album/3N0NOdLx8P8azj1YaV9kS7",
+      "applemusic": "https://music.apple.com/ru/album/getting-out-tonight-single/1467329209",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/getting-out-tonight-single/1467329209",
+      "deezer": "https://www.deezer.com/en/album/99887422",
+      "tidal": "https://tidal.com/browse/album/111013785"
+    }
+  },
+  {
+    "id": 5,
+    "title": "House on Chicken Legs",
+    "artist": "Harry Perlo",
+    "remixer": "",
+    "date": "2019-07-05",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Harry Perlo",
+        "remixer": "",
+        "title": "Don't Break My Heart",
+        "genre": "House",
+        "bpm": 124,
+        "key": "D min"
+      },
+      {
+        "id": 2,
+        "artist": "Harry Perlo",
+        "remixer": "",
+        "title": "I Want Your Love",
+        "genre": "House",
+        "bpm": 120,
+        "key": "F♯ min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/house-on-chicken-legs/2640110",
+      "junodownload": "",
+      "spotify": "https://open.spotify.com/album/2iTDslmLUVjS9y8yfnjvMe",
+      "applemusic": "https://music.apple.com/jm/album/house-on-chicken-legs-single/1470049406",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/jm/album/house-on-chicken-legs-single/1470049406",
+      "deezer": "https://www.deezer.com/en/album/101447452",
+      "tidal": "https://tidal.com/browse/album/112054257"
+    }
+  },
+  {
+    "id": 6,
+    "title": "As Seen on TV",
+    "artist": "Maxzim",
+    "remixer": "",
+    "date": "2019-08-27",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Traveler's Song",
+        "genre": "Indie Dance",
+        "bpm": 122,
+        "key": "G min"
+      },
+      {
+        "id": 2,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Hoping for a Hit",
+        "genre": "Deep House",
+        "bpm": 123,
+        "key": "F maj"
+      },
+      {
+        "id": 3,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Izhevsk",
+        "genre": "Deep House",
+        "bpm": 123,
+        "key": "G min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/as-seen-on-tv/2688785",
+      "junodownload": "",
+      "spotify": "https://open.spotify.com/album/58BySwIn6y09NFc2iVgeKW",
+      "applemusic": "https://music.apple.com/ru/album/as-seen-on-tv-single/1476511599",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/as-seen-on-tv-single/1476511599",
+      "deezer": "https://www.deezer.com/en/album/107389362",
+      "tidal": "https://tidal.com/browse/album/115431337"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Simple Illusions",
+    "artist": "Genning",
+    "remixer": "",
+    "date": "2019-10-22",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Genning",
+        "remixer": "",
+        "title": "Fantasion",
+        "genre": "Tech House",
+        "bpm": 130,
+        "key": "D min"
+      },
+      {
+        "id": 2,
+        "artist": "Genning",
+        "remixer": "",
+        "title": "It Rains",
+        "genre": "Techno",
+        "bpm": 128,
+        "key": "A maj"
+      },
+      {
+        "id": 3,
+        "artist": "Genning",
+        "remixer": "",
+        "title": "Mon Clap",
+        "genre": "Deep House",
+        "bpm": 127,
+        "key": "A min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/simple-illusions/2740129",
+      "junodownload": "https://www.junodownload.com/products/genning-simple-illusions/4311302-02/",
+      "spotify": "https://open.spotify.com/album/64n7U6YWmJeNoRdt5sgQr5",
+      "applemusic": "https://music.apple.com/ru/album/simple-illusions-single/1483026326",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/simple-illusions-single/1483026326",
+      "deezer": "https://www.deezer.com/en/album/114237312",
+      "tidal": "https://tidal.com/browse/album/119791277"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Oasis of Life",
+    "artist": "Ootkeen",
+    "remixer": "",
+    "date": "2019-12-06",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Oasis of Life",
+        "genre": "Deep House",
+        "bpm": 115,
+        "key": "D min"
+      },
+      {
+        "id": 2,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Alone Traveller",
+        "genre": "Tech House",
+        "bpm": 122,
+        "key": "G♯ min"
+      },
+      {
+        "id": 3,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Last Summer Boogie Night",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "A min"
+      },
+      {
+        "id": 4,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Artic Tracery",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "A min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/oasis-of-life/2772929",
+      "junodownload": "https://www.junodownload.com/products/ootkeen-oasis-of-life/4348529-02/",
+      "spotify": "https://open.spotify.com/album/3Dt8UNbLj0olBDO6Ch6bHh",
+      "applemusic": "https://music.apple.com/ru/album/oasis-of-life-ep/1487824693",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/oasis-of-life-ep/1487824693",
+      "deezer": "https://www.deezer.com/en/album/118799222",
+      "tidal": "https://tidal.com/browse/album/122440035"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Starfall",
+    "artist": "Ootkeen",
+    "remixer": "Maxzim",
+    "date": "2020-01-23",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Starfall",
+        "genre": "Indie Dance",
+        "bpm": 118,
+        "key": "F min"
+      },
+      {
+        "id": 2,
+        "artist": "Ootkeen",
+        "remixer": "Maxzim",
+        "title": "Starfall (Maxzim's Beat Mix)",
+        "genre": "Deep House",
+        "bpm": 118,
+        "key": "F min"
+      },
+      {
+        "id": 3,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Solstice",
+        "genre": "Tech House",
+        "bpm": 114,
+        "key": "C♯ min"
+      },
+      {
+        "id": 4,
+        "artist": "Ootkeen",
+        "remixer": "",
+        "title": "Now",
+        "genre": "Deep House",
+        "bpm": 118,
+        "key": "C min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/starfall/2823633",
+      "junodownload": "https://www.junodownload.com/products/ootkeen-starfall/4404889-02/",
+      "spotify": "https://open.spotify.com/album/6QqkZacVbuwByASEEGKQlw",
+      "applemusic": "https://music.apple.com/ru/album/starfall-ep/1495058739",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/starfall-ep/1495058739",
+      "deezer": "https://www.deezer.com/en/album/126576272",
+      "tidal": "https://tidal.com/browse/album/128064927"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Circles EP",
+    "artist": "Michael Circle",
+    "remixer": "",
+    "date": "2020-02-01",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Michael Circle",
+        "remixer": "",
+        "title": "Circle 02",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "F♯ min"
+      },
+      {
+        "id": 2,
+        "artist": "Michael Circle",
+        "remixer": "",
+        "title": "Circle 01",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "D min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/circles-ep/2828249",
+      "junodownload": "https://www.junodownload.com/products/michael-circle-circles-ep/4408903-02/",
+      "spotify": "https://open.spotify.com/album/3k4WCQ8ImHslFqEXflz8UX",
+      "applemusic": "https://music.apple.com/ru/album/circles-ep/1495624589",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/circles-ep/1495624589",
+      "deezer": "https://www.deezer.com/en/album/127107992",
+      "tidal": ""
+    }
+  },
+  {
+    "id": 11,
+    "title": "All for Love",
+    "artist": "Maqar",
+    "remixer": "",
+    "date": "2020-03-20",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Keep on Loving",
+        "genre": "Deep House",
+        "bpm": 113,
+        "key": "D♯ min"
+      },
+      {
+        "id": 2,
+        "artist": "Maqar",
+        "remixer": "",
+        "title": "Tremble",
+        "genre": "Deep House",
+        "bpm": 110,
+        "key": "A♯ maj"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/all-for-love/2879897",
+      "junodownload": "https://www.junodownload.com/products/maqar-all-for-love/4473615-02/",
+      "spotify": "https://open.spotify.com/album/3JBLEQZzKqlAWFe0J5I0NQ",
+      "applemusic": "https://music.apple.com/ru/album/all-for-love-single/1501481132",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/all-for-love-single/1501481132",
+      "deezer": "https://www.deezer.com/en/album/134553442",
+      "tidal": "https://tidal.com/browse/album/133153182"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Every",
+    "artist": "Maxzim",
+    "remixer": "",
+    "date": "2020-11-01",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Every",
+        "genre": "Deep House",
+        "bpm": 123,
+        "key": "C min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/every/3164508",
+      "junodownload": "https://www.junodownload.com/products/maxzim-every/4808904-02/",
+      "spotify": "https://open.spotify.com/album/01mNszL8dkHBfPbMQvoB7k",
+      "applemusic": "https://music.apple.com/jm/album/every-single/1537605623",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/jm/album/every-single/1537605623",
+      "deezer": "https://www.deezer.com/en/album/180498102",
+      "tidal": "https://tidal.com/browse/album/159054606"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Some",
+    "artist": "Maxzim",
+    "remixer": "",
+    "date": "2020-11-15",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Some",
+        "genre": "Deep House",
+        "bpm": 122,
+        "key": "F♯ min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/some/3181220",
+      "junodownload": "https://www.junodownload.com/products/maxzim-some/4827606-02/",
+      "spotify": "https://open.spotify.com/album/17OkiwkpIJC1RNYbZ1aMyJ",
+      "applemusic": "https://music.apple.com/jm/album/some-single/1538558727",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/jm/album/some-single/1538558727",
+      "deezer": "https://www.deezer.com/en/album/183480692",
+      "tidal": "https://tidal.com/browse/album/160688606"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Omletique Wax",
+    "artist": "Anton Koch",
+    "remixer": "",
+    "date": "2021-04-27",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Anton Koch",
+        "remixer": "",
+        "title": "Take It Down",
+        "genre": "Tech House",
+        "bpm": 114,
+        "key": "E min"
+      },
+      {
+        "id": 2,
+        "artist": "Anton Koch",
+        "remixer": "",
+        "title": "Omletique Wax",
+        "genre": "Tech House",
+        "bpm": 112,
+        "key": "B min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/omletique-wax/3363416",
+      "junodownload": "https://www.junodownload.com/products/anton-koch-omletique-wax/5059354-02/",
+      "spotify": "https://open.spotify.com/album/0QXRXJVWpkp1WC7p3ZbHa5",
+      "applemusic": "https://music.apple.com/us/album/omletique-wax-single/1563395476",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/us/album/omletique-wax-single/1563395476",
+      "deezer": "https://www.deezer.com/en/album/222774562",
+      "tidal": "https://tidal.com/browse/album/180583478"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Black Moon This Time",
+    "artist": "Maxzim, Maqar, Lana Domire",
+    "remixer": "",
+    "date": "2021-06-14",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim, Maqar, Lana Domire",
+        "remixer": "",
+        "title": "Black Moon",
+        "genre": "Deep House",
+        "bpm": 121,
+        "key": "E maj"
+      },
+      {
+        "id": 2,
+        "artist": "Maxzim, Maqar, Lana Domire",
+        "remixer": "",
+        "title": "This Time",
+        "genre": "Deep House",
+        "bpm": 120,
+        "key": "E maj"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/black-moon-this-time/3409848",
+      "junodownload": "https://www.junodownload.com/products/maxzim-maqar-lana-black-moon-this-time/5130090-02/",
+      "spotify": "https://open.spotify.com/album/6kYizD2VDCctIwzl4vBfQ9",
+      "applemusic": "https://music.apple.com/us/album/black-moon-this-time-single/1571294839",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/us/album/black-moon-this-time-single/1571294839",
+      "deezer": "https://www.deezer.com/en/album/234174462",
+      "tidal": "https://tidal.com/browse/album/186168642"
+    }
+  }
+]

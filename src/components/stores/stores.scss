@@ -1,0 +1,101 @@
+.stores {
+  background-color: $clr-txt;
+  &-description {
+    font-size: $fszxs;
+    color: $clr-txt;
+    margin: $spacing / 2 0;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      border-bottom: 1px solid lighten($clr-txt-muted,25%);
+      &:last-of-type {
+        border-bottom: none;
+      }
+      a {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: $spacing / 2;
+        text-decoration: none;
+        &:hover {
+          background-color: lighten($clr-txt-muted,33%);
+          button {
+            background-color: $clr-ui-alt;
+            color: $clr-txt;
+            border-color: $clr-ui-alt;
+          }
+        }
+        button {
+          background-color: $clr-txt;
+          color: $clr-txt-muted;
+          border-width: 1px;
+          border-style: solid;
+          border-color: lighten($clr-txt-muted,25%);
+          padding: $spacing / 3;
+          text-transform: uppercase;
+          width: 70px;
+          cursor: pointer;
+          font-size: $fszs;
+        }
+      }
+    }
+  }
+  li {
+    a {
+      background-position: $spacing / 2 center;
+      background-repeat: no-repeat;
+      background-size: 130px;
+    }
+    &.beatport {
+      a {
+        background-image: url("./img/beatport_logo.svg");
+      }
+    }
+    &.junodownload {
+      a {
+        background-image: url("./img/junodownload_logo.svg");
+      }
+    }
+    &.spotify {
+      a {
+        background-image: url("./img/spotify_logo.svg");
+      }
+    }
+    &.applemusic {
+      a {
+        background-image: url("./img/applemusic_logo.svg");
+      }
+    }
+    &.traxsource {
+      a {
+        background-image: url("./img/traxsource_logo.svg");
+      }
+    }
+    &.soundcloud {
+      a {
+        background-image: url("./img/soundcloud_logo.svg");
+      }
+    }
+    &.deezer {
+      a {
+        background-image: url("./img/deezer_logo.svg");
+      }
+    }
+    &.itunes {
+      a {
+        background-image: url("./img/itunes_logo.svg");
+      }
+    }
+    &.tidal {
+      a {
+        background-image: url("./img/tidal_logo.svg");
+      }
+    }
+  }
+}

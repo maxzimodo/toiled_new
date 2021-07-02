@@ -1,0 +1,124 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+//variables
+$clr-ui: #343434;
+$clr-ui-alt: #434343;
+$clr-txt: #fff;
+$clr-txt-muted: #A3A3A3;
+$clr-pale: #d2d2d2;
+$clr-link: #93d2ff;
+
+$spacing: 30px;
+
+$fszxs: 12px;
+$fszs: 14px;
+$fsz: 16px;
+$fszl: 18px;
+$fszxl: 22px;
+
+/*media queries*/
+
+$desktop-width: 1024px;
+$tablet-width: 600px;
+$mobile-width: 320px;
+
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin hover-supported {
+  @media not all and (pointer: coarse) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+//components
+@import "./components/player/player";
+@import "./components/header/header";
+@import "./components/release/release";
+@import "./components/artwork/artwork";
+@import "./components/stores/stores";
+@import "components/release_page/release_page";
+
+//common styles
+* {
+  font-family: 'Roboto', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $clr-ui;
+  font-size: $fsz;
+}
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: $spacing / 2;
+}
+.main-page {
+  .wrapper {
+    padding: $spacing $spacing / 2;
+    @include mobile {
+      padding: $spacing /2;
+    }
+    @include tablet {
+      padding: $spacing /2;
+    }
+    .releases {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      row-gap: $spacing;
+      column-gap: $spacing;
+      @include mobile{
+        grid-template-columns: 1fr;
+      }
+      @include tablet {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+.about-page, .contact-page {
+  .wrapper {
+    padding: $spacing $spacing / 2;
+  }
+}
+article {
+  h2 {
+    font-size: $fszxl;
+    font-weight: 700;
+  }
+  h2,p {
+    margin: 0 0 $spacing 0;
+  }
+  color: $clr-txt;
+  a {
+    color: $clr-link;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+//.releases {
+//  display: flex;
+//}

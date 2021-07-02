@@ -1,0 +1,12 @@
+mixin stores-mixin(release)
+    .stores
+        ul
+            each val, key in release
+                if(val)
+                    li(class=key)
+                        a(href=val target="_blank")
+                            if(key === 'beatport'||key === 'junodownload'||key === "itunes"||key === "traxsource")
+                                button get it
+                            else
+                                button listen
+    p.stores-description Chose your preferred music service
