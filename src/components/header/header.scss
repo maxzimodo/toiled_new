@@ -50,13 +50,14 @@
   .main-nav {
     @include mobile {
       width: 100%;
-      transform: translateY(-100%);
+      transform: translateY(-105%);
       position: fixed;
       z-index: 1;
       top: 0;
       padding-top: 75px;
       background-color: $clr-ui-alt;
       transition: transform 300ms;
+      box-shadow: 0 0 9px 0 $clr-ui;
     }
     ul {
       list-style: none;
