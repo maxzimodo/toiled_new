@@ -6,10 +6,12 @@ $size: 320px;
   //@include mobile {
   //  margin-top: $spacing / 2;
   //}
-  &-body {
-    .main-header {
-      .wrapper {
-        padding: 0;
+  @include mobile {
+    &-body {
+      .main-header {
+        .wrapper {
+          padding: 0;
+        }
       }
     }
   }
