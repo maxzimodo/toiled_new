@@ -91,7 +91,7 @@
             &.active {
               color: $clr-txt;
               @include mobile {
-                background-color: lighten($clr-ui,15%);
+                //background-color: lighten($clr-ui,15%);
               }
             }
           @include hover-supported {
