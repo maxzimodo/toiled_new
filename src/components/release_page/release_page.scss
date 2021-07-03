@@ -3,8 +3,15 @@ $size: 320px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  @include mobile {
-    margin-top: $spacing / 2;
+  //@include mobile {
+  //  margin-top: $spacing / 2;
+  //}
+  &-body {
+    .main-header {
+      .wrapper {
+        padding: 0;
+      }
+    }
   }
   .container {
     position: relative;

@@ -5,7 +5,7 @@ html(lang="en")
         -   var releaseTitle = data[releaseNumber - 1].title
         -   var releaseArtist = data[releaseNumber - 1].artist
         title=releaseTitle + ' by ' + releaseArtist
-    body
+    body.release-page-body
         include ../header/header
         main.release-page(data-release-number=releaseNumber)
             .background(style="background-image: url(./releases/" + releaseNumber + "/" + releaseNumber + "_artwork.jpeg)")
