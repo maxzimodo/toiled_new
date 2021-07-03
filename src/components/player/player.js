@@ -1,7 +1,8 @@
 const Player = () => {
   const systemPlayers = document.getElementsByClassName('system-player');
   const playBtns = document.getElementsByClassName('play-pause');
-  const inputRanges = document.getElementsByClassName('range')
+  const inputRanges = document.getElementsByClassName('range');
+  const playersContainer = document.querySelector('.players');
 
   //function for make time from seconds
   String.prototype.toMMSS = function () {
@@ -42,7 +43,8 @@ const Player = () => {
   for(let i=0; i<systemPlayers.length; i++) {
     systemPlayers[i].load();
     systemPlayers[i].oncanplay = function () {
-      systemPlayers[i].addEventListener('timeupdate', updateProgress)
+      playersContainer.classList.remove('disabled');
+      systemPlayers[i].addEventListener('timeupdate', updateProgress);
     }
     inputRanges[i].addEventListener('change', setProgress);
     systemPlayers[i].addEventListener('canplaythrough', setDuration)

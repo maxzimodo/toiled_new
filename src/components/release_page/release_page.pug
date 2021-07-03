@@ -13,7 +13,7 @@ html(lang="en")
                 a.back-btn(href="./index.pug")
                 include ../artwork/artwork
                 +artwork-mixin(releaseNumber)
-                .players
+                .players.disabled
                     include ../player/player
                     -   var tracks = data[releaseNumber - 1].tracks
                     +player-mixin(releaseNumber, tracks)

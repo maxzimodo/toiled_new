@@ -3,9 +3,25 @@ $size: 320px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  //@include mobile {
-  //  margin-top: $spacing / 2;
-  //}
+  .players {
+    &.disabled {
+      position: relative;
+      &:before {
+        content: 'loading...';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $clr-ui-alt;
+        width: 100%;
+        height: 100%;
+        opacity: .9;
+        top: 0;
+        left: 0;
+        color: $clr-txt
+      }
+    }
+  }
   @include mobile {
     &-body {
       .main-header {

@@ -3,6 +3,7 @@ $size: 226px; //main page size
   width: $size;
   height: $size;
   overflow: hidden;
+  background-color: lighten($clr-ui,5%);
   @include mobile {
     width: 100%;
     height: 100%;
