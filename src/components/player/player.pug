@@ -17,5 +17,5 @@ mixin player-mixin(index, tracks)
                     source(src='./releases/' + index + '/' + index + '_' + (i + 1) + '.mp3' type="audio/mpeg")
                 button.play-pause
                 span.current-time 00:00
-                input.range(type="range" max="100" value="0")
+                input.range(type="range" min="0" max="100" value="0")
                 span.duration 00:00

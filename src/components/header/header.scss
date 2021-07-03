@@ -18,7 +18,8 @@
     flex-wrap: wrap;
     @include mobile {
       justify-content: flex-end;
-      padding: 0 0 75px 0;
+      //padding: 0 0 75px 0;
+      padding: 0;
     }
   }
   .logo {
@@ -85,12 +86,12 @@
           letter-spacing: 1px;
           @include mobile {
             margin: 0;
-            padding: $spacing /1.5;
+            padding: $spacing /2;
             display: block;
             width: 100%;
-            text-align: center;
+            //text-align: center;
             box-sizing: border-box;
-            font-size: $fszxl;
+            font-size: $fszl;
             -webkit-tap-highlight-color: lighten($clr-ui-alt,1%);
           }
             &.active {

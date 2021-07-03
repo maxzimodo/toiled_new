@@ -108,6 +108,9 @@ article {
   h2 {
     font-size: $fszxl;
     font-weight: 700;
+    @include mobile {
+      padding-right: 75px;
+    }
   }
   h2,p {
     margin: 0 0 $spacing 0;

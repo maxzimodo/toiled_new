@@ -1,6 +1,5 @@
 const Player = () => {
   const systemPlayers = document.getElementsByClassName('system-player');
-  const durations = document.getElementsByClassName('duration');
   const playBtns = document.getElementsByClassName('play-pause');
   const inputRanges = document.getElementsByClassName('range')
 
@@ -30,22 +29,31 @@ const Player = () => {
   }
 
   function setProgress(e) {
-    let player = e.target.parentNode.querySelector('.system-player');
+    const player = e.target.parentNode.querySelector('.system-player');
     player.currentTime = e.target.value /  100 * player.duration;
   }
 
+  function setDuration(e) {
+    const player = e.target;
+    const dur = player.parentNode.querySelector('.duration');
+    dur.innerHTML = player.duration.toString().toMMSS();
+  }
+
   for(let i=0; i<systemPlayers.length; i++) {
-    if(systemPlayers[i].readyState === 4) durations[i].innerHTML = systemPlayers[i].duration.toString().toMMSS();
+    systemPlayers[i].load();
+    systemPlayers[i].oncanplay = function () {
+      systemPlayers[i].addEventListener('timeupdate', updateProgress)
+    }
     inputRanges[i].addEventListener('change', setProgress);
-    systemPlayers[i].addEventListener('timeupdate', updateProgress)
+    systemPlayers[i].addEventListener('canplaythrough', setDuration)
     playBtns[i].addEventListener('click', evt => {
       const playButton = evt.target;
       const systemPlayer = playButton.parentNode.querySelector('.system-player');
       const range = evt.target.parentNode.querySelector('.range');
 
-      systemPlayer.addEventListener('timeupdate', updateProgress)
-      systemPlayer.addEventListener('ended', endSong)
-      range.addEventListener('change', setProgress)
+      systemPlayer.addEventListener('timeupdate', updateProgress);
+      systemPlayer.addEventListener('ended', endSong);
+      range.addEventListener('change', setProgress);
 
       function playIt() {
         for(let j=0; j<playBtns.length; j++) {

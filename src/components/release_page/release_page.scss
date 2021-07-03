@@ -28,6 +28,9 @@ $size: 320px;
     transform: translate(-80px, -50%);
     background: $clr-txt url("./img/back_arrow.svg")no-repeat center;
     background-size: 25px;
+    @include mobile {
+      display: none;
+    }
     &:hover {
       background-color: lighten($clr-txt-muted,33%);
       &::after {
