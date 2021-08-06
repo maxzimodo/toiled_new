@@ -628,5 +628,34 @@
       "deezer": "https://www.deezer.com/en/album/234174462",
       "tidal": "https://tidal.com/browse/album/186168642"
     }
+  },
+  {
+    "id": 16,
+    "title": "Calling My Name",
+    "artist": "Maxzim, Maqar, Lana Domire",
+    "remixer": "",
+    "date": "2021-08-05",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim, Maqar, Lana Domire",
+        "remixer": "",
+        "title": "Calling My Name",
+        "genre": "Deep House",
+        "bpm": 122,
+        "key": "A maj"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/calling-my-name/3462627",
+      "junodownload": "https://www.junodownload.com/products/maxzim-maqar-lana-domire-calling-my-name/5205255-02/",
+      "spotify": "https://open.spotify.com/album/0Z0ZrUF3PSDoePg3HAeU3n",
+      "applemusic": "https://music.apple.com/ru/album/calling-my-name-single/1578660729",
+      "traxsource": "https://www.traxsource.com/label/58810/toiled-records",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/calling-my-name-single/1578660729",
+      "deezer": "https://www.deezer.com/en/album/247457382",
+      "tidal": "https://tidal.com/browse/track/192286042"
+    }
   }
 ]
