@@ -657,5 +657,42 @@
       "deezer": "https://www.deezer.com/en/album/247457382",
       "tidal": "https://tidal.com/browse/track/192286042"
     }
+  },
+  {
+    "id": 17,
+    "title": "Wastegate",
+    "artist": "Grohotune",
+    "remixer": "",
+    "date": "2021-10-18",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Grohotune",
+        "remixer": "",
+        "title": "Wastegate",
+        "genre": "Tech House",
+        "bpm": 118,
+        "key": "E♭ maj"
+      },
+      {
+        "id": 2,
+        "artist": "Grohotune",
+        "remixer": "",
+        "title": "Crisis Core",
+        "genre": "Tech House",
+        "bpm": 105,
+        "key": "F min"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/wastegate/3535373",
+      "junodownload": "https://www.junodownload.com/products/grohotune-wastegate/5292259-02/",
+      "spotify": "https://open.spotify.com/album/104jAvGieXGYIGvwtJwS20",
+      "applemusic": "https://music.apple.com/ru/album/wastegate-single/1588875344",
+      "traxsource": "https://www.traxsource.com/track/9332391/wastegate",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/wastegate-single/1588875344",
+      "deezer": "https://www.deezer.com/search/grohotune/track"
+    }
   }
 ]
