@@ -694,5 +694,33 @@
       "itunes": "https://music.apple.com/ru/album/wastegate-single/1588875344",
       "deezer": "https://www.deezer.com/search/grohotune/track"
     }
+  },
+  {
+    "id": 18,
+    "title": "Reckless Song",
+    "artist": "Maxzim",
+    "remixer": "",
+    "date": "2021-10-30",
+    "tracks": [
+      {
+        "id": 1,
+        "artist": "Maxzim",
+        "remixer": "",
+        "title": "Reckless Song",
+        "genre": "Deep House",
+        "bpm": 123,
+        "key": "A maj"
+      }
+    ],
+    "stores": {
+      "beatport": "https://www.beatport.com/release/wastegate/3535373",
+      "junodownload": "https://www.junodownload.com/products/grohotune-wastegate/5292259-02/",
+      "spotify": "https://open.spotify.com/album/104jAvGieXGYIGvwtJwS20",
+      "applemusic": "https://music.apple.com/ru/album/wastegate-single/1588875344",
+      "traxsource": "https://www.traxsource.com/track/9332391/wastegate",
+      "soundcloud": "https://soundcloud.com/toiledrecords",
+      "itunes": "https://music.apple.com/ru/album/wastegate-single/1588875344",
+      "deezer": "https://www.deezer.com/search/grohotune/track"
+    }
   }
 ]
